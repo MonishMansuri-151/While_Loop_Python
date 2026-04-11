@@ -1,4 +1,4 @@
-# i = 1
-# while ord("a") <= ord("z"):
-#     print(i)
-#     i = i + 1
+i = 97
+while i <= 122:
+    print(chr(i))
+    i = i + 1
