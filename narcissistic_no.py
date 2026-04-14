@@ -19,3 +19,21 @@ if n3 == total:
     print("narcissistic number")
 else:
     print("not narcissistic number ")
+
+
+# easy way use built in function (len () )
+# n = 3456
+# original = n
+
+# count = len(str(n))  # easy way
+
+# total = 0
+# while n > 0:
+#     digit = n % 10
+#     total += digit ** count
+#     n //= 10
+
+# if original == total:
+#     print("narcissistic number")
+# else:
+#     print("not narcissistic number")
