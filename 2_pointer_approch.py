@@ -1,15 +1,17 @@
-data = "naman"
-x = 0
-y = len(data) - 1
+data = "madamimadam"
+first = 0
+last = len(data) - 1
 a = True
 
-while x < y:
-    print("x =", x, "data =>", data[x], "y =", y, "data =>", data[y])
-    if data[x] != data[y]:
+while first < last:
+    print(
+        "first =", first, "data =>", data[first], "last=", last, "data =>", data[last]
+    )
+    if data[first] != data[last]:
         a = False
         break
-    x += 1
-    y -= 1
+    first += 1
+    last -= 1
 
 if a == False:
     print("not palindrome")

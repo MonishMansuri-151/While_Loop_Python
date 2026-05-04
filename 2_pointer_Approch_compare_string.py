@@ -4,10 +4,14 @@ last = len(s) - 1
 start = 0
 size = len(s) - 1
 count = 0
+total = 0
 indicator = True
 while start < size:
     if int(s[start]) + int(s[last]) == 11:
         print(s[start], s[last])
+        total = int(s[start]) + int(s[last])
+        print("sum of ", total)
+        break
     # if s[start] == s[last]:
     # indicator = False
 
