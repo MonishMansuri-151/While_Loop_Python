@@ -1,5 +1,5 @@
 # duplicate find 2 pointer approch
-s = "14876"
+s = "41623874"
 last = len(s) - 1
 start = 0
 size = len(s) - 1
@@ -12,8 +12,6 @@ while start < size:
         total = int(s[start]) + int(s[last])
         print("sum of ", total)
         break
-    # if s[start] == s[last]:
-    # indicator = False
 
     last -= 1
 
