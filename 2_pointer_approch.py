@@ -4,9 +4,7 @@ last = len(data) - 1
 a = True
 
 while first < last:
-    print(
-        "first =", first, "data =>", data[first], "last=", last, "data =>", data[last]
-    )
+    # print("first =", first, "data =>", data[first], "last=", last, "data =>", data[last])
     if data[first] != data[last]:
         a = False
         break
